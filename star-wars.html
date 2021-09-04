@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="star-wars.png">
+    <link rel="stylesheet" href="star-wars.css">
+    <!-- <link rel="icon" href=""> -->
+    <title>Star Wars</title>
+</head>
+<body>
+    <!-- Header Start of mute and unmute images -->
+    <header>
+        <img onclick="mute()" class="mute" src="mute.svg">
+        <img onclick="unmute()" class="un-mute" src="unmute.svg">
+
+    </header>
+    <!-- Header end of mute and unmute images -->
+
+    <!-- Input box for taking the data form user start -->
+    <section>
+        <div class="logo">
+            <img src="star-wars.png">
+        </div>
+        <div class="search">
+            <input type="text" oninput="debounce(main,1000)" class="search-bar" placeholder="Search Characters">
+            <div id="characters"></div>
+
+            <div class="search-icon-box">
+                <img class="search-icon" src="search-icon.svg">
+
+            </div>
+        </div>
+    </section>
+    <!-- Input box for taking the data form user end -->
+
+    <!-- Showing the results start -->
+    <div class="personal-data">
+        <div class="character-name"></div>
+        <div class="character-details">
+
+        </p>
+        <div id="personal-info" >
+            <span>
+                Personal Info
+            </span>
+        </div>
+        <div id="anatomy" >
+            <span>
+                Anatomy
+            </span>
+        </div>
+    </div>
+    <!-- Showing the results start -->
+
+    
+    <button onclick="goBack()" class="go-back-btn">Go Back</button>
+
+
+
+    <script type="text/javascript" src="star-wars.js"></script>
+</body>
+</html>
