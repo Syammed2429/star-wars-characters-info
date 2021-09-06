@@ -113,16 +113,16 @@ margin: auto;
 display: none;
 box-shadow: 0 0 0 yellow;
 border-radius: 20px;
-border: 5px solid yellow;
+border: 2   px solid yellow;
+cursor: pointer;
 
 /* left: rem; */
 /* -webkit-animation: dark 2s infinite; */
-animation: dark 2s infinite;
+/* animation: dark 2s infinite; */
 /* animation-name: borderLight; */
 /* animation-duration: 3s; */
 /* animation-iteration-count: infinite; */
 /* animation-delay: ; */
-cursor: pointer;
 
 }
 /* 
@@ -762,48 +762,15 @@ section img {
     margin: auto;
     display: none;
     box-shadow: 0 0 0 yellow;
-    border: 5px solid yellow;
+    border: 3px solid yellow;
     border-radius: 20px;
     -webkit-animation: dark 2s infinite;
     animation: dark 2s infinite;
     cursor: pointer;
     
-    /* left: rem; */
-    /* animation-name: borderLight; */
-    /* animation-duration: 3s; */
-    /* animation-iteration-count: infinite; */
-    /* animation-delay: ; */
+   
     
     }
-    /*
-    @keyframes dark { 
-    0% {
-        border: none;
-     border-radius: 20px;
-    }
-    20% {
-        border: 1px solid yellow;
-    border-radius: 20px;
-    }
-    30% {
-        border: 2px solid yellow;
-    border-radius: 20px;
-    }
-    50% {
-        border: 3px solid yellow;
-    border-radius: 20px;
-    }
-    80% {
-        border: 5px solid yellow;
-    border-radius: 20px;
-    }
-    100% {
-    border: 7px solid yellow;
-    border-radius: 20px;
-    
-    }
-
-    */
     
     }
     .character-details {
