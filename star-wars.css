@@ -1,129 +1,127 @@
-body  {
-    background: black;
-    font-family:"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+body {
+  background: black;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 /* Header Style Start */
 header img {
-    position: relative;
-    left: 92%;
-    margin-top:  5rem;
+  position: relative;
+  left: 92%;
+  margin-top: 5rem;
 }
-header img{
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
+header img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
 /* Header Style End */
 
-
 /* Section Style Start */
 section {
-    position: relative;
-    top: 10rem;
+  position: relative;
+  top: 10rem;
 }
-section, .search {
-    width: 100%;
-    display: flex;
-    background: transparent;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    
+section,
+.search {
+  width: 100%;
+  display: flex;
+  background: transparent;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 /* Star Wars Logo */
 section img {
-    width: 200px;
-    height: 98.3px;
-    align-items: center;
+  width: 200px;
+  height: 98.3px;
+  align-items: center;
 }
 
 /* Search box style */
 .search-icon-box {
-    position: relative;
-    right: 0rem;
-    margin-left: 35rem;
-    bottom: 15.2rem;
-    margin-bottom: 11.4rem;
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;;
-    background-color: yellow;
-    
-
+  position: relative;
+  right: 0rem;
+  margin-left: 35rem;
+  bottom: 15.2rem;
+  margin-bottom: 11.4rem;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: yellow;
 }
 /* Serach icon style */
 .search-icon-box img {
-    position: relative;
-    margin-top:  -2rem;
-    margin-left:  10px;
-    width: 15px;
-    
+  position: relative;
+  margin-top: -2rem;
+  margin-left: 10px;
+  width: 15px;
 }
 .search-bar {
-    width: 600px;
-    height: 30px;
-    padding: 10px 15px;
-    border-radius: 20px;
-    border: 0;
-    outline: 0;
-    font-size: 16px;
-    background: #2d2f30;
-    color: #f2f2f2;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    margin-top: 20px;
+  width: 600px;
+  height: 30px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  background: #2d2f30;
+  color: #f2f2f2;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 .un-mute {
-    display: none;
+  display: none;
 }
 /* search results style start */
 #characters {
-    width: 600px;
-    height: 200px;
-    overflow: auto;
-    color: white;
-    margin-top: 1px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  width: 600px;
+  height: 200px;
+  overflow: auto;
+  color: white;
+  margin-top: 1px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 /* search results scrollbar style start */
 
 #characters::-webkit-scrollbar {
-width: 5px;
+  width: 5px;
 }
 #characters::-webkit-scrollbar-thumb {
-background: #888;
+  background: #888;
 }
 /* search results scrollbar style end */
 
 .personal-data {
-background: black;
-width: 800px;
-height: 489px;
-position: relative;
-bottom: 28rem;
-margin: auto;
-display: none;
-box-shadow: 0 0 0 yellow;
-border-radius: 20px;
-border: 2   px solid yellow;
-cursor: pointer;
+  background: black;
+  width: 800px;
+  height: 489px;
+  position: relative;
+  bottom: 28rem;
+  margin: auto;
+  display: none;
+  box-shadow: 0 0 0 yellow;
+  border-radius: 20px;
+  border: 2 px solid yellow;
+  cursor: pointer;
 
-/* left: rem; */
-/* -webkit-animation: dark 2s infinite; */
-/* animation: dark 2s infinite; */
-/* animation-name: borderLight; */
-/* animation-duration: 3s; */
-/* animation-iteration-count: infinite; */
-/* animation-delay: ; */
-
+  /* left: rem; */
+  /* -webkit-animation: dark 2s infinite; */
+  /* animation: dark 2s infinite; */
+  /* animation-name: borderLight; */
+  /* animation-duration: 3s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-delay: ; */
 }
 /* 
 @keyframes dark { 
@@ -155,59 +153,57 @@ border-radius: 20px;
 
 } */
 .character-details {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-right: 3rem;
-    /* margin: 0 20px;; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-right: 3rem;
+  /* margin: 0 20px;; */
 }
 /* Go back button style start */
 .go-back-btn {
-background : transparent;
-height: 52px;
-margin: 50px 0;
-height: 30px;
-margin: 50px 0;
-border: 1px solid yellow;
-border-radius: 10px;
-color: yellow;
-font-size: 20px;
-padding: 3%;
-display: -webkit-flex;
-display: flex;
--webkit-align-items: center;
-align-items: center;
-justify-content: center;
-transition: .2s;
-margin: 35px auto;
-cursor: pointer;
-
+  background: transparent;
+  height: 52px;
+  margin: 50px 0;
+  height: 30px;
+  margin: 50px 0;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  color: yellow;
+  font-size: 20px;
+  padding: 3%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  margin: 35px auto;
+  cursor: pointer;
 }
 
 /* Go back button style  end */
 
 .character-name {
-text-align: center;
-color: yellow;
-/* margin: 24px 0px; */
-font-size: 32px;
-font-weight: bold;
+  text-align: center;
+  color: yellow;
+  /* margin: 24px 0px; */
+  font-size: 32px;
+  font-weight: bold;
 }
 
 #anatomy {
-/* margin-top: 10px; */
+  /* margin-top: 10px; */
 }
-#personal-info, #anatomy {
-border: 2px solid yellow;
-border-radius: 10px;
-padding: 10px 25px;
-margin-left: -8rem;
-margin-right: 0rem;
-margin-bottom: 15px;
-color: yellow;
-
-
+#personal-info,
+#anatomy {
+  border: 2px solid yellow;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-left: -8rem;
+  margin-right: 0rem;
+  margin-bottom: 15px;
+  color: yellow;
 }
 #personal-info:hover,
 #anatomy:hover,
@@ -215,338 +211,327 @@ color: yellow;
 .anatomy-cont:hover,
 .go-back-btn:hover,
 .personal-data span:hover {
-border-color: white;
-color:white;
+  border-color: white;
+  color: white;
 }
 .personal-data span {
-color: yellow;
-font-size: 24px;
-margin: 19.92px 0px;
-text-align: center;
+  color: yellow;
+  font-size: 24px;
+  margin: 19.92px 0px;
+  text-align: center;
 }
 .personal-Info-cont,
-.anatomy-cont
-{
-color: yellow;
-font-size: 16px;
-margin: 21.28px 0px;
+.anatomy-cont {
+  color: yellow;
+  font-size: 16px;
+  margin: 21.28px 0px;
 }
-.characterName, .age {
-margin-left: 10px;;
-font-size: 16px;
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-
-
+.characterName,
+.age {
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 .age {
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 
-/* margin-bottom: 15px; */
-margin-top: -10px;
-margin-bottom: -2rem;
-font-size: 12px;
-font-weight: 100;
+  /* margin-bottom: 15px; */
+  margin-top: -10px;
+  margin-bottom: -2rem;
+  font-size: 12px;
+  font-weight: 100;
 }
 .characterName:hover {
-/* color: yellow; */
-cursor: pointer;
+  /* color: yellow; */
+  cursor: pointer;
 }
 .characterGender {
-display: flex;
-flex-direction: column;
-color: white;
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-flex-wrap: nowrap;
-align-content: space-around;
-justify-content: flex-end;
-align-items: flex-start;
-flex-direction: row;
-position: relative;
-bottom: 1.5rem;   
-margin-right: 21px;
-font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+  bottom: 1.5rem;
+  margin-right: 21px;
+  font-size: 12px;
 }
-
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    /* Header Style Start */
-header img {
+  /* Header Style Start */
+  header img {
     position: relative;
     left: 22rem;
-    margin-top:  2rem;
-}
-/* Header Style End */
+    margin-top: 2rem;
+  }
+  /* Header Style End */
 
-/* Section Style Start */
-section {
+  /* Section Style Start */
+  section {
     position: relative;
     top: 15rem;
     left: 5rem;
-}
-section img {
+  }
+  section img {
     margin-left: -4rem;
-}
+  }
 
-/* Search box style */
-.search-icon-box {
+  /* Search box style */
+  .search-icon-box {
     /* margin-left: 18rem; */
     position: absolute;
     right: 1.4rem;
     top: 8rem;
-    }
+  }
 
-.search-bar {
+  .search-bar {
     width: 22rem;
     height: 30px;
-    margin-left: -1rem;;
+    margin-left: -1rem;
     padding: 10px 15px;
     position: relative;
     right: 30px;
     font-size: larger;
-}
+  }
 
-/* search results style start */
-#characters {
+  /* search results style start */
+  #characters {
     width: 23rem;
     position: absolute;
     top: 10rem;
     right: 2rem;
-}
-.personal-data {
+  }
+  .personal-data {
     background: black;
     width: 25.5rem;
     height: 489px;
     position: relative;
-    bottom: 3rem;    
-    }
-    #personal-info {
-        position: relative;
-         left: 1rem;
-    }
-    #anatomy {
-         position: relative;
-         left: 6rem;
-        }
-
-    
-} 
-
+    bottom: 3rem;
+  }
+  #personal-info {
+    position: relative;
+    left: 1rem;
+  }
+  #anatomy {
+    position: relative;
+    left: 6rem;
+  }
+}
 
 @media only screen and (min-width: 411px) {
-
-     /* Header Style Start */
-header img {
+  /* Header Style Start */
+  header img {
     position: relative;
     left: 25rem;
-}
-/* Header Style End */
+  }
+  /* Header Style End */
 
-/* Section Style Start */
-section {
+  /* Section Style Start */
+  section {
     position: relative;
     top: 15rem;
     left: 5rem;
-}
-section img {
+  }
+  section img {
     margin-left: -5rem;
-}
+  }
 
-/* Search box style */
-.search-icon-box {
+  /* Search box style */
+  .search-icon-box {
     /* margin-left: 18rem; */
     position: absolute;
     right: 3.2rem;
     top: 8rem;
-    }
+  }
 
-.search-bar {
+  .search-bar {
     width: 22rem;
     height: 30px;
-    margin-left: -1rem;;
+    margin-left: -1rem;
     padding: 10px 15px;
     position: relative;
     right: 30px;
     font-size: larger;
-}
+  }
 
-/* search results style start */
-#characters {
+  /* search results style start */
+  #characters {
     width: 23rem;
     position: absolute;
     top: 10rem;
     right: 3.5rem;
-}
-.personal-data {
+  }
+  .personal-data {
     background: black;
     width: 28.5rem;
     height: 489px;
     position: relative;
-    bottom: 3rem;    
-    }
-    #personal-info {
-        position: relative;
-         left: 1rem;
-    }
-    #anatomy {
-         position: relative;
-         left: 6rem;
-        }
+    bottom: 3rem;
+  }
+  #personal-info {
+    position: relative;
+    left: 1rem;
+  }
+  #anatomy {
+    position: relative;
+    left: 6rem;
+  }
+}
 
-    
-
-    
-} 
-
-
-@media only screen and (max-width: 375px) { 
-     /* Header Style Start */
-header img {
+@media only screen and (max-width: 375px) {
+  /* Header Style Start */
+  header img {
     position: relative;
     left: 22rem;
-}
-/* Header Style End */
+  }
+  /* Header Style End */
 
-/* Section Style Start */
-section {
+  /* Section Style Start */
+  section {
     position: relative;
     top: 15rem;
     left: 5rem;
-}
-section img {
+  }
+  section img {
     margin-left: -5rem;
-}
+  }
 
-/* Search box style */
-.search-icon-box {
+  /* Search box style */
+  .search-icon-box {
     /* margin-left: 18rem; */
     position: absolute;
     right: 2.2rem;
     top: 8rem;
-    }
+  }
 
-.search-bar {
+  .search-bar {
     width: 22rem;
     height: 30px;
-    margin-left: -1rem;;
+    margin-left: -1rem;
     padding: 10px 15px;
     position: relative;
     right: 30px;
     font-size: larger;
-}
+  }
 
-/* search results style start */
-#characters {
+  /* search results style start */
+  #characters {
     width: 23rem;
     position: absolute;
     top: 10rem;
     right: 2rem;
-}
-.personal-data {
+  }
+  .personal-data {
     background: black;
     width: 26.5rem;
     height: 489px;
     position: relative;
-    bottom: 3rem;    
-    }
-    #personal-info {
-        position: relative;
-         left: 1rem;
-    }
-    #anatomy {
-         position: relative;
-         left: 6rem;
-        }
-
-} 
+    bottom: 3rem;
+  }
+  #personal-info {
+    position: relative;
+    left: 1rem;
+  }
+  #anatomy {
+    position: relative;
+    left: 6rem;
+  }
+}
 
 @media only screen and (min-width: 768px) {
-        /* Header Style Start */
-header img {
+  /* Header Style Start */
+  header img {
     position: relative;
     left: 48rem;
-}
-/* Header Style End */
+  }
+  /* Header Style End */
 
-/* Section Style Start */
-section {
+  /* Section Style Start */
+  section {
     position: relative;
     top: 15rem;
     left: 5rem;
-}
-section img {
+  }
+  section img {
     margin-left: -5rem;
-}
+  }
 
-/* Search box style */
-.search-icon-box {
+  /* Search box style */
+  .search-icon-box {
     /* margin-left: 18rem; */
     position: absolute;
     right: 9rem;
     top: 8rem;
-    }
+  }
 
-.search-bar {
+  .search-bar {
     width: 70%;
     height: 30px;
-    margin-left: -1rem;;
+    margin-left: -1rem;
     padding: 10px 15px;
     position: relative;
     right: 30px;
     font-size: larger;
-}
+  }
 
-/* search results style start */
-#characters {
+  /* search results style start */
+  #characters {
     width: 70%;
     position: absolute;
     top: 10rem;
     right: 10rem;
-}
-.personal-data {
+  }
+  .personal-data {
     background: black;
     width: 100%;
     height: 489px;
     position: relative;
-    bottom: 3rem; 
-    left: 2rem;   
-    }
-    .character-details {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: center;
-        margin-right: 3rem;
-        position: relative;
-        right: 2.5rem;
-        }
-
-
-} 
+    bottom: 3rem;
+    left: 2rem;
+  }
+  .character-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-right: 3rem;
+    position: relative;
+    right: 2.5rem;
+  }
+}
 
 @media only screen and (min-width: 992px) {
-    /* Header Style Start */
-header img {
+  /* Header Style Start */
+  header img {
     position: relative;
     left: 92%;
-    margin-top:  5rem;
-}
-header img{
+    margin-top: 5rem;
+  }
+  header img {
     width: 25px;
     height: 25px;
     cursor: pointer;
-}
-/* Header Style End */
+  }
+  /* Header Style End */
 
-
-/* Section Style Start */
-section {
+  /* Section Style Start */
+  section {
     position: relative;
     top: 15rem;
-}
-section, .search {
+  }
+  section,
+  .search {
     width: 100%;
     display: flex;
     background: transparent;
@@ -556,17 +541,16 @@ section, .search {
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
-    
-}
-/* Star Wars Logo */
-section img {
+  }
+  /* Star Wars Logo */
+  section img {
     width: 200px;
     height: 98.3px;
     align-items: center;
-}
+  }
 
-/* Search box style */
-.search-icon-box {
+  /* Search box style */
+  .search-icon-box {
     position: relative;
     right: 0rem;
     margin-left: 35rem;
@@ -574,23 +558,20 @@ section img {
     margin-bottom: 11.4rem;
     width: 35px;
     height: 35px;
-    border-radius: 100%;;
+    border-radius: 100%;
     background-color: yellow;
     position: relative;
     top: auto;
     left: -2.5rem;
-    
-
-}
-/* Serach icon style */
-.search-icon-box img {
+  }
+  /* Serach icon style */
+  .search-icon-box img {
     position: relative;
-    margin-top:  -2rem;
-    margin-left:  10px;
+    margin-top: -2rem;
+    margin-left: 10px;
     width: 15px;
-    
-}
-.search-bar {
+  }
+  .search-bar {
     width: 600px;
     height: 30px;
     padding: 10px 15px;
@@ -607,153 +588,143 @@ section img {
     justify-content: space-between;
     margin-top: 20px;
     font-size: 25px;
-
-}
-.un-mute {
+  }
+  .un-mute {
     display: none;
-}
-/* search results style start */
-#characters {
-    width: 600px;;
+  }
+  /* search results style start */
+  #characters {
+    width: 600px;
     height: 200px;
     overflow: auto;
     color: white;
     margin-top: 1px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-   position: relative;
-   left: -2rem;
-   top: auto;
-}
-.personal-data {
+    position: relative;
+    left: -2rem;
+    top: auto;
+  }
+  .personal-data {
     background: black;
     width: 800px;
     height: 489px;
     position: relative;
-    bottom: 27rem; 
-    left: 2rem;   
-    }
-    .character-details {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: center;
-        margin-right: 3rem;
-        position: relative;
-        right: 2.5rem;
-        }
-
-    
-    
+    bottom: 27rem;
+    left: 2rem;
+  }
+  .character-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-right: 3rem;
+    position: relative;
+    right: 2.5rem;
+  }
 }
 
-
-
-
 @media only screen and (min-width: 1200px) {
-    
-    header img {
-        position: relative;
-        left: 92%;
-        margin-top:  5rem;
-    }
-    header img{
-        width: 25px;
-        height: 25px;
-        cursor: pointer;
-    }
-    /* Header Style End */
-    
-    
-    /* Section Style Start */
-    section {
-        position: relative;
-        top: 10rem;
-        left: 8rem;
-    }
-    section, .search {
-        width: 90%;
-        display: flex;
-        background: transparent;
-        -webkit-flex-direction: column;
-        flex-direction: column;
-        -webkit-align-items: center;
-        align-items: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        
-    }
-    /* Star Wars Logo */
-    section img {
-        width: 200px;
-        height: 98.3px;
-        align-items: center;
-    }
-    
-    /* Search box style */
-    .search-icon-box {
-        position: relative;
-        right: 0rem;
-        margin-left: 35rem;
-        bottom: 15.2rem;
-        margin-bottom: 11.4rem;
-        width: 35px;
-        height: 35px;
-        border-radius: 100%;;
-        background-color: yellow;
-        
-    
-    }
-    /* Serach icon style */
-    .search-icon-box img {
-        position: relative;
-        margin-top:  -2rem;
-        margin-left:  10px;
-        width: 15px;
-        
-    }
-    .search-bar {
-        width: 600px;
-        height: 30px;
-        padding: 10px 15px;
-        border-radius: 20px;
-        border: 0;
-        outline: 0;
-        font-size: 16px;
-        background: #2d2f30;
-        color: #f2f2f2;
-        display: -webkit-flex;
-        display: flex;
-        align-items: center;
-        -webkit-justify-content: space-between;
-        justify-content: space-between;
-        margin-top: 20px;
-    }
-    .un-mute {
-        display: none;
-    }
-    /* search results style start */
-    #characters {
-        width: 600px;
-        height: 200px;
-        overflow: auto;
-        color: white;
-        margin-top: 1px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-       font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    }
-    /* search results scrollbar style start */
-    
-    #characters::-webkit-scrollbar {
+  header img {
+    position: relative;
+    left: 92%;
+    margin-top: 5rem;
+  }
+  header img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  /* Header Style End */
+
+  /* Section Style Start */
+  section {
+    position: relative;
+    top: 10rem;
+    left: 8rem;
+  }
+  section,
+  .search {
+    width: 90%;
+    display: flex;
+    background: transparent;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  /* Star Wars Logo */
+  section img {
+    width: 200px;
+    height: 98.3px;
+    align-items: center;
+  }
+
+  /* Search box style */
+  .search-icon-box {
+    position: relative;
+    right: 0rem;
+    margin-left: 35rem;
+    bottom: 15.2rem;
+    margin-bottom: 11.4rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: yellow;
+  }
+  /* Serach icon style */
+  .search-icon-box img {
+    position: relative;
+    margin-top: -2rem;
+    margin-left: 10px;
+    width: 15px;
+  }
+  .search-bar {
+    width: 600px;
+    height: 30px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    background: #2d2f30;
+    color: #f2f2f2;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .un-mute {
+    display: none;
+  }
+  /* search results style start */
+  #characters {
+    width: 600px;
+    height: 200px;
+    overflow: auto;
+    color: white;
+    margin-top: 1px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  /* search results scrollbar style start */
+
+  #characters::-webkit-scrollbar {
     width: 5px;
-    }
-    #characters::-webkit-scrollbar-thumb {
+  }
+  #characters::-webkit-scrollbar-thumb {
     background: #888;
-    }
-    /* search results scrollbar style end */
-    
-    .personal-data {
+  }
+  /* search results scrollbar style end */
+
+  .personal-data {
     background: black;
     width: 800px;
     height: 489px;
@@ -767,123 +738,167 @@ section img {
     -webkit-animation: dark 2s infinite;
     animation: dark 2s infinite;
     cursor: pointer;
-    
-   
-    
-    }
-    
-    }
-    .character-details {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: center;
-        margin-right: 3rem;
-        /* margin: 0 20px;; */
-    }
-    /* Go back button style start */
-    .go-back-btn {
-    background : transparent;
-    height: 52px;
-    margin: 50px 0;
-    height: 30px;
-    margin: 50px 0;
-    border: 1px solid yellow;
-    border-radius: 10px;
-    color: yellow;
-    font-size: 20px;
-    padding: 3%;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    justify-content: center;
-    transition: .2s;
-    margin: 35px auto;
-    cursor: pointer;
-    
-    }
-    
-    /* Go back button style  end */
-    
-    .character-name {
-    text-align: center;
-    color: yellow;
-    /* margin: 24px 0px; */
-    font-size: 32px;
+  }
+}
+.character-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-right: 3rem;
+  /* margin: 0 20px;; */
+}
+/* Go back button style start */
+.go-back-btn {
+  background: transparent;
+  height: 52px;
+  margin: 50px 0;
+  height: 30px;
+  margin: 50px 0;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  color: yellow;
+  font-size: 20px;
+  padding: 3%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  margin: 35px auto;
+  cursor: pointer;
+}
+
+/* Go back button style  end */
+
+.character-name {
+  text-align: center;
+  color: yellow;
+  /* margin: 24px 0px; */
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#anatomy {
+  /* margin-top: 10px; */
+}
+#personal-info,
+#anatomy {
+  border: 2px solid yellow;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-left: -8rem;
+  margin-right: 0rem;
+  margin-bottom: 15px;
+  color: yellow;
+}
+#personal-info:hover,
+#anatomy:hover,
+.personal-Info-cont:hover,
+.anatomy-cont:hover,
+.go-back-btn:hover,
+.personal-data span:hover {
+  border-color: white;
+  color: white;
+}
+.personal-data span {
+  color: yellow;
+  font-size: 24px;
+  margin: 19.92px 0px;
+  text-align: center;
+}
+.personal-Info-cont,
+.anatomy-cont {
+  color: yellow;
+  font-size: 16px;
+  margin: 21.28px 0px;
+}
+.characterName,
+.age {
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.age {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  /* margin-bottom: 15px; */
+  margin-top: -10px;
+  margin-bottom: -2rem;
+  font-size: 12px;
+  font-weight: 100;
+}
+.characterName:hover {
+  /* color: yellow; */
+  cursor: pointer;
+}
+.characterGender {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+  bottom: 1.5rem;
+  margin-right: 21px;
+  font-size: 12px;
+}
+
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+  }
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  } /* ---- particles.js container ---- */
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+  } /* ---- stats.js ---- */
+  .count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13e8e9;
+    font-size: 0.8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
-    }
-    
-    #anatomy {
-    /* margin-top: 10px; */
-    }
-    #personal-info, #anatomy {
-    border: 2px solid yellow;
-    border-radius: 10px;
-    padding: 10px 25px;
-    margin-left: -8rem;
-    margin-right: 0rem;
-    margin-bottom: 15px;
-    color: yellow;
-    
-    
-    }
-    #personal-info:hover,
-    #anatomy:hover,
-    .personal-Info-cont:hover,
-    .anatomy-cont:hover,
-    .go-back-btn:hover,
-    .personal-data span:hover {
-    border-color: white;
-    color:white;
-    }
-    .personal-data span {
-    color: yellow;
-    font-size: 24px;
-    margin: 19.92px 0px;
-    text-align: center;
-    }
-    .personal-Info-cont,
-    .anatomy-cont
-    {
-    color: yellow;
-    font-size: 16px;
-    margin: 21.28px 0px;
-    }
-    .characterName, .age {
-    margin-left: 10px;;
-    font-size: 16px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    
-    
-    }
-    .age {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    
-    /* margin-bottom: 15px; */
-    margin-top: -10px;
-    margin-bottom: -2rem;
-    font-size: 12px;
-    font-weight: 100;
-    }
-    .characterName:hover {
-    /* color: yellow; */
-    cursor: pointer;
-    }
-    .characterGender {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-direction: row;
-    position: relative;
-    bottom: 1.5rem;   
-    margin-right: 21px;
-    font-size: 12px;
-    }
-    
-    
+  }
+  .js-count-particles {
+    font-size: 1.1em;
+  }
+  #stats,
+  .count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  #stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  .count-particles {
+    border-radius: 0 0 3px 3px;
+  }
+  
